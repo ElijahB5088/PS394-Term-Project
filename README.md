@@ -1,2 +1,2 @@
 # PS394-Term-Project
-Term project for PS394 2026. A website using R to explain confidence intervals for future students in the class.
+Term project for PS394 2026. A website that allows for interactive learning activities, multiple sectioned pages to guarantee step-by-step interaction, and visualizations of data (bar charts, graphs, histograms). The addition of hands-on learning allows for more teaching approaches for students who may not learn the best traditionally. This project may be used by future students in the course.
