@@ -1,0 +1,3 @@
+# Common misconceptions {#misconceptions}
+
+Content coming soon. See the [confidence interval](#confidence-interval) definition.

@@ -1,0 +1,9 @@
+# Glossary {#glossary}
+
+## Confidence interval {#confidence-interval}
+
+A range of values that is likely to contain the population value we are estimating.
+
+## Sampling distribution {#sampling-distribution}
+
+Definition coming soon.

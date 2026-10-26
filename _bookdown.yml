@@ -1,0 +1,3 @@
+book_filename: "ci-site"
+output_dir: "docs"
+rmd_files: ["index.Rmd", "02-glossary.Rmd", "03-misconceptions.Rmd", "04-graphs.Rmd"]

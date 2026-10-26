@@ -1,0 +1,6 @@
+instructions
+glossary
+confidence-interval
+sampling-distribution
+misconceptions
+interactive
