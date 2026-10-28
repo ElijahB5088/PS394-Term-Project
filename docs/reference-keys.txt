@@ -16,3 +16,5 @@ distribution
 normal-distribution
 misconceptions
 interactive
+references
+section
