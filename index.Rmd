@@ -17,4 +17,4 @@ output:
 * Explore confidence intervals with interactive graphs
 
 Work through the pages in order using the sidebar or the arrows at the bottom.
-Check out highlighted <span> words! </span> They take you to the [Glossary](#glossary)!
+Check out <span style="background-color: #fff3a3;">highlighted words!</span> They take you to the <span style="background-color: #fff3a3;">[Glossary](#glossary)!</span>

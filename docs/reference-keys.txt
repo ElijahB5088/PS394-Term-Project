@@ -4,3 +4,5 @@ confidence-interval
 sampling-distribution
 misconceptions
 interactive
+references
+section
