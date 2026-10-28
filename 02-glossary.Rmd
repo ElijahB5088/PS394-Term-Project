@@ -1,9 +1,60 @@
 # Glossary {#glossary}
 
-## Confidence interval {#confidence-interval}
+Every <span style="background-color: #fff3a3;">**highlighted term**</span> on this site links back to a term somewhere on this page. 
 
-A range of values that is likely to contain the population value we are estimating.
+## The big idea
 
-## Sampling distribution {#sampling-distribution}
+### Confidence interval {#confidence-interval}
 
-Definition coming soon.
+**In short.** A confidence interval is a range of values that comes from a sample. It is used to estimate an unknown value in the population, like the population mean. the <span style="background-color: #fff3a3;">[confidence interval](#confidence-interval)</span> is written with a minimum and then a maximum, such as "11.0 to 13.0". It always comes with a <span style="background-color: #fff3a3;">[confidence level](#confidence-level)</span>, such as 95%.
+
+**What "confident" really means** The confidence is about the *method* used to build the interval, not about any one interval. Here is what it really means:
+
+1. **There is one true value.** Somewhere in the <span style="background-color: #fff3a3;">[population](#population)</span> there is a real value we want to know, such as the average hours of sleep for all students at a university. It is fixed, but we cannot see it, because we cannot measure everyone.
+2. **Take one sample and build an interval.** We collect a random <span style="background-color: #fff3a3;">[sample](#sample),</span> calculate the <span style="background-color: #fff3a3;">[sample mean](#sample-mean)</span>, then add and subtract the <span style="background-color: #fff3a3;">[margin of error](#margin-of-error)</span> that gives us just one interval.
+3. **Imagine repeating those steps.** Imagine we take a new <span style="background-color: #fff3a3;">[sample](#sample),</span> and repeat the exact same steps. The people would be different in a new sample, so the <span style="background-color: #fff3a3;">[sample mean](#sample-mean)</span> should be a little different, same goes for the newly calculated interval.
+4. **Repeat the steps.** Actually repeat the steps hundreds of times, leaving you with hundreds of intervals. Most of the <span style="background-color: #fff3a3;">[intervals](#confidence-interval)</span> will contain the true value, only a few would miss it and that can be chalked up to bad luck in who happened to be sampled. 
+5. **The confidence level is the percentage of correct hits from that pile of intervals.** A 95% <span style="background-color: #fff3a3;">[confidence level](#confidence-level)</span> means the method used to build the interval was built so that around 95 intervals out of 100 intervals completed contain the true value. This means about 5 would miss. (The reason this complicated pattern is predictable is the <span style="background-color: #fff3a3;">[sampling distribution](#sampling-distribution).</span>)
+6. **We only get one interval in real life scenarios.** In day to day statistics we will not have done all 100 sample draws, which means we are not sure if our interval is one of the 95 hits or one of the 5 misses. The 95% represents how often the *method* works, to put it another way **before** any data collection is done our CI will have a 95% chance of containing the true vale. **After** collection it becomes a 0% or 100% chance that it captured the true value, we don't know for certain if it is or isn't.
+
+### Confidence Level {#confidence-level}
+
+### Margin of Error {#margin-of-error}
+
+### Population {#population}
+
+The complete set of people, events or items that a study is about. We can typically never draw conclusions about a population, which is why we take <span style="background-color: #fff3a3;">[samples](#sample)</span>. This limitation is the main reason our statistics are <span style="background-color: #fff3a3;">[inferential](#inferential-statistics)</span>
+
+### Sample {#sample}
+
+Samples are a small subset of a larger set of data, that larger set being the <span style="background-color: #fff3a3;">[population](#population)</span>. The sample results allow us to draw inferences about the <span style="background-color: #fff3a3;">[population](#population)</span>. Confidence intervals assume the sample was chosen at random (called probability sampling), so that every member of the <span style="background-color: #fff3a3;">[population](#population)</span> had a fair chance of being picked. Without random sampling the results would not be generalizable to the <span style="background-color: #fff3a3;">[population](#population)</span>, and therefore not usable in <span style="background-color: #fff3a3;">[inferential statistics](#inferential-statistics)</span>.  
+
+###Parameter {#parameter}
+
+A **parameter** is a number that describes a whole <span style="background-color: #fff3a3;">[population](#population)</span>, such as the population mean (written μ). It is fixed but usually unknown.
+
+###Statistic {#statistic}
+
+A **statistic** is a number calculated from a <span style="background-color: #fff3a3;">[sample](#sample)</span>, such as the sample mean (written x̄). We can see it, but it changes from sample to sample.
+
+A <span style="background-color: #fff3a3;">[confidence interval](#confidence-interval)</span> uses a statistic to estimate a <span style="background-color: #fff3a3;">[parameter](#parameter)</span>.
+
+### Sample mean {#sample-mean}
+
+The "average" of the values in *one* sample. A mean is calculated by summing the scores together divided by the total number of scores. It is a single number, and it is our best guess at what the population mean looks like. Another sample would give a different sample mean. See also <span style="background-color: #fff3a3;">[sampling distribution vs. sample mean](#sampling-vs-sample-mean)</span>.
+
+### Standard deviation {#standard-deviation}
+
+A measure of how spread out the individual values are around the mean. A <span style="background-color: #fff3a3;">[standard deviation](#standard-deviation)</span> that is close to zero means the data points sit close to the mean. A larger <span style="background-color: #fff3a3;">[SD](#standard-deviation)</span> means they are more varied and spread out.
+
+## Sampling distributions
+
+### Sampling distribution {#sampling-distribution}
+
+### Standard error {#standard-error}
+
+### Sampling distribution vs. sample mean {#sampling-vs-sample-mean}
+
+### Distribution {#distribution}
+
+### Normal distribution {#normal-distribution}

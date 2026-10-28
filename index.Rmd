@@ -17,4 +17,4 @@ output:
 * Explore confidence intervals with interactive graphs
 
 Work through the pages in order using the sidebar or the arrows at the bottom.
-Whenever you see a <span style="color: purple;">**purple term**</span>, it links back to the [glossary](#glossary).
+Whenever you see a <span style="background-color: #fff3a3;">**highlighted term**</span>, it links back to the <span style="background-color: #fff3a3;">[glossary](#glossary)</span>.
